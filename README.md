@@ -1,4 +1,4 @@
-# EDCP12025
+# EDC PILARES COOPEREMOS PUEBLO
 # Sesion 1
 Entorno
 Orden de la clase
