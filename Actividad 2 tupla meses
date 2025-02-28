@@ -1,0 +1,17 @@
+
+# Crea una tupla con los nombres de los meses del año.
+año = ("enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
+
+# Bucle infinito para que el usuario ingrese números y obtenga el mes correspondiente.
+while True:
+    numero = int(input("Ingresa un Numero del 1 al 12 "))
+    if numero >= 1 and numero <= 12:
+        # Muestra el mes correspondiente al número ingresado.
+        print(f"{año[numero-1]}")
+    elif numero == 0:
+        # Si el usuario ingresa 0, el programa se apaga.
+        print("Programa apagado")
+        break
+    else:
+        # Si el número está fuera del rango, muestra un mensaje de error.
+        print("error número alto")
