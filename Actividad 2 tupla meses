@@ -1,4 +1,14 @@
+#primer punto
+#Generar datos aleatorios: 
+#Para simular la asistencia de los estudiantes, el sistema debe generar una lista de 10 valores aleatorios (del 1 al 20), 
+#donde cada valor representa la cantidad de días que un estudiante ha asistido a clase.
 
+import random
+lista=[]
+for i in range(10):
+   lista.append(random.randint(1,20))
+   print(lista[i])
+print(lista)
 # Crea una tupla con los nombres de los meses del año.
 año = ("enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
 
