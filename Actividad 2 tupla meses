@@ -25,3 +25,4 @@ while True:
     else:
         # Si el número está fuera del rango, muestra un mensaje de error.
         print("error número alto")
+# El sistema debe permitir al profesor ingresar los nombres de 5 estudiantes. Luego, debe crear una copia de la lista de nombres en orden inverso y mostrarla
